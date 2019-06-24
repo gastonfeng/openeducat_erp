@@ -48,7 +48,7 @@ msgstr "<br/>\n"
 msgid "<br/>\n"
 "                                                    Blood Group :"
 msgstr "<br/>\n"
-"                                                    血组:"
+"                                                    血型:"
 
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.report_student_idcard
@@ -71,36 +71,14 @@ msgid "<font color=\"white\">.</font>\n"
 "                                            studying\n"
 "                                            in"
 msgstr "<font color=\"white\">。</font>\n"
-"                                            是这个学校/大学的 bonafide 学生。"
+"                                            是这个学校/大学的慈善学生。"
 
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
 msgid "<strong>Bonafide Certificate</strong>"
-msgstr "<strong>Bonafide 证书</strong>"
+msgstr "<strong>慈善证书</strong>"
 
-#. module: openeducat_core
-#: selection:op.faculty,blood_group:0
-#: selection:op.student,blood_group:0
-msgid "A+ve"
-msgstr "A + ve"
 
-#. module: openeducat_core
-#: selection:op.faculty,blood_group:0
-#: selection:op.student,blood_group:0
-msgid "A-ve"
-msgstr "ve"
-
-#. module: openeducat_core
-#: selection:op.faculty,blood_group:0
-#: selection:op.student,blood_group:0
-msgid "AB+ve"
-msgstr "AB + ve"
-
-#. module: openeducat_core
-#: selection:op.faculty,blood_group:0
-#: selection:op.student,blood_group:0
-msgid "AB-ve"
-msgstr "AB"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_property_account_payable_id
@@ -112,7 +90,7 @@ msgstr "应付账款"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_property_account_receivable_id
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_property_account_receivable_id
 msgid "Account Receivable"
-msgstr "应 收账 款"
+msgstr "应收账款"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_company_accreditation
@@ -124,13 +102,13 @@ msgstr "认可"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_needaction
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_needaction
 msgid "Action Needed"
-msgstr "需要采取的行动"
+msgstr "需要采取行动"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_active
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_active
 msgid "Active"
-msgstr "积极"
+msgstr "有效"
 
 #. module: openeducat_core
 #: model:ir.ui.menu,name:openeducat_core.menu_op_school_config_activity
@@ -147,7 +125,7 @@ msgstr "地址"
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
 msgid "Address Detail"
-msgstr "地址详细信息"
+msgstr "详细地址"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_type
@@ -163,7 +141,7 @@ msgstr "地址："
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
 msgid "Admission Details"
-msgstr "入场详情"
+msgstr "录取详情"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_company_approval_authority
@@ -171,17 +149,6 @@ msgstr "入场详情"
 msgid "Approval Authority"
 msgstr "审批权限"
 
-#. module: openeducat_core
-#: selection:op.faculty,blood_group:0
-#: selection:op.student,blood_group:0
-msgid "B+ve"
-msgstr "B + ve"
-
-#. module: openeducat_core
-#: selection:op.faculty,blood_group:0
-#: selection:op.student,blood_group:0
-msgid "B-ve"
-msgstr "B ve"
 
 #. module: openeducat_core
 #: model:res.groups,name:openeducat_core.group_op_back_office
@@ -217,13 +184,13 @@ msgstr "条码"
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_search
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_tree
 msgid "Batch"
-msgstr "批"
+msgstr "年级"
 
 #. module: openeducat_core
 #: model:ir.actions.act_window,name:openeducat_core.act_open_op_batch_view
 #: model:ir.ui.menu,name:openeducat_core.menu_op_batch_sub
 msgid "Batches"
-msgstr "批次"
+msgstr "年级"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_birth_date
@@ -244,23 +211,23 @@ msgstr "出生日期不能大于当前日期!"
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_search
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_student_search
 msgid "Blood Group"
-msgstr "血组"
+msgstr "血型"
 
 #. module: openeducat_core
 #: model:ir.actions.report.xml,name:openeducat_core.action_report_student_bonafide
 msgid "Bonafide Certificate"
-msgstr "Bonafide 证书"
+msgstr "慈善证书"
 
 #. module: openeducat_core
 #: selection:op.subject,type:0
 msgid "Both"
-msgstr "都"
+msgstr "全部"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_bounce
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_bounce
 msgid "Bounce"
-msgstr "反弹"
+msgstr "驳回"
 
 #. module: openeducat_core
 #: selection:op.course,evaluation_type:0
@@ -297,7 +264,7 @@ msgstr "类别"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_channel_ids
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_channel_ids
 msgid "Channels"
-msgstr "渠道"
+msgstr "频道"
 
 #. module: openeducat_core
 #: model:ir.model.fields,help:openeducat_core.field_op_faculty_is_company
@@ -396,7 +363,7 @@ msgstr "完整地址"
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.aboutus_openeducat
 msgid "Comprehensive Open Source ERP for Educational Institutes"
-msgstr "教育学院综合开源 ERP 系统"
+msgstr "教育学院综合开源ERP系统"
 
 #. module: openeducat_core
 #: model:ir.ui.menu,name:openeducat_core.menu_op_school_config
@@ -407,7 +374,7 @@ msgstr "配置"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_child_ids
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_child_ids
 msgid "Contacts"
-msgstr "接触"
+msgstr "联系人"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_contract_ids
@@ -540,7 +507,7 @@ msgstr "客户付款条件"
 #. module: openeducat_core
 #: model:ir.ui.menu,name:openeducat_core.menu_op_dashboard_faculty
 msgid "Dashboard"
-msgstr "仪表 板"
+msgstr "仪表板"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_date
@@ -645,7 +612,7 @@ msgstr "评估类型"
 #: model:ir.ui.menu,name:openeducat_core.menu_op_faculty_root
 #: model:ir.ui.menu,name:openeducat_core.menu_op_faculty_sub
 msgid "Faculties"
-msgstr "院 系"
+msgstr "院系"
 
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.op_faculty_user_create_view
@@ -690,7 +657,7 @@ msgstr "财政状况"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_follower_ids
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_follower_ids
 msgid "Followers"
-msgstr "追随 者"
+msgstr "追随者"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_channel_ids
@@ -762,7 +729,7 @@ msgstr "分组通过..。"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_has_unreconciled_entries
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_has_unreconciled_entries
 msgid "Has unreconciled entries"
-msgstr "有不甘条目"
+msgstr "有未识别条目"
 
 #. module: openeducat_core
 #: model:ir.module.category,description:openeducat_core.module_category_openeducat
@@ -847,13 +814,13 @@ msgstr "内部参考"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_invoice_warn
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_invoice_warn
 msgid "Invoice"
-msgstr "发票"
+msgstr "凭证"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_invoice_ids
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_invoice_ids
 msgid "Invoices"
-msgstr "发票"
+msgstr "凭证"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_is_follower
@@ -1037,12 +1004,12 @@ msgstr "中间名"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_mobile
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_mobile
 msgid "Mobile"
-msgstr "移动"
+msgstr "手机"
 
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.kanban_view_faculty
 msgid "Mobile:"
-msgstr "移动："
+msgstr "手机："
 
 #. module: openeducat_core
 #: model:ir.ui.menu,name:openeducat_core.menu_op_dashboard_student
@@ -1097,23 +1064,12 @@ msgstr "需要操作的消息数"
 msgid "Number of unread messages"
 msgstr "未读邮件数"
 
-#. module: openeducat_core
-#: selection:op.faculty,blood_group:0
-#: selection:op.student,blood_group:0
-msgid "O+ve"
-msgstr "O + ve"
-
-#. module: openeducat_core
-#: selection:op.faculty,blood_group:0
-#: selection:op.student,blood_group:0
-msgid "O-ve"
-msgstr "O ve"
 
 #. module: openeducat_core
 #: model:ir.module.category,name:openeducat_core.module_category_openeducat
 #: model:ir.ui.menu,name:openeducat_core.menu_op_school_root
 msgid "OpenEduCat"
-msgstr "OpenEduCat"
+msgstr "教育管理"
 
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.aboutus_openeducat
@@ -1242,7 +1198,7 @@ msgstr "销售价目表"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_user_id
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_user_id
 msgid "Salesperson"
-msgstr "售货员"
+msgstr "销售员"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_course_section
@@ -1288,7 +1244,7 @@ msgstr "注册令牌有效"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_signup_url
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_signup_url
 msgid "Signup URL"
-msgstr "注册 URL"
+msgstr "注册URL"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_signup_expiration
@@ -1332,13 +1288,13 @@ msgstr "状态"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_street
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_street
 msgid "Street"
-msgstr "街"
+msgstr "街道"
 
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
 msgid "Street..."
-msgstr "街。。。"
+msgstr "街道"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_street2
@@ -1346,7 +1302,7 @@ msgstr "街。。。"
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
 msgid "Street2"
-msgstr "Street2"
+msgstr "街道2"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_student_id
@@ -1371,7 +1327,7 @@ msgstr "学生仪表板"
 #. module: openeducat_core
 #: model:ir.actions.report.xml,name:openeducat_core.action_report_student_idcard
 msgid "Student IdCard"
-msgstr "学生 IdCard"
+msgstr "学生证"
 
 #. module: openeducat_core
 #: model:ir.actions.act_window,name:openeducat_core.act_open_op_student_view
@@ -1390,7 +1346,7 @@ msgstr "学生"
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_subject_search
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_subject_tree
 msgid "Subject"
-msgstr "主题"
+msgstr "学科"
 
 #. module: openeducat_core
 #: model:ir.ui.menu,name:openeducat_core.menu_op_school_config_subject
@@ -1401,7 +1357,7 @@ msgstr "学科管理"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_course_subject_ids
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_faculty_subject_ids
 msgid "Subject(s)"
-msgstr "主题 (s)"
+msgstr "学科"
 
 #. module: openeducat_core
 #: model:ir.actions.act_window,name:openeducat_core.act_open_op_subject_view
@@ -1409,7 +1365,7 @@ msgstr "主题 (s)"
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_course_form
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
 msgid "Subjects"
-msgstr "科目"
+msgstr "学科"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_vat
@@ -1696,23 +1652,23 @@ msgstr "在使用搜索选项插入仪表板之前, 可以对数据进行筛选�
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
 #: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
 msgid "ZIP"
-msgstr "Zip"
+msgstr "邮编"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_zip
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student_zip
 msgid "Zip"
-msgstr "Zip"
+msgstr "邮编"
 
 #. module: openeducat_core
 #: model:ir.model,name:openeducat_core.model_op_batch
 msgid "op.batch"
-msgstr "批处理"
+msgstr "年级"
 
 #. module: openeducat_core
 #: model:ir.model,name:openeducat_core.model_op_category
 msgid "op.category"
-msgstr "项目类别"
+msgstr "类别"
 
 #. module: openeducat_core
 #: model:ir.model,name:openeducat_core.model_op_course
@@ -1732,7 +1688,7 @@ msgstr "学生"
 #. module: openeducat_core
 #: model:ir.model,name:openeducat_core.model_op_subject
 msgid "op.subject"
-msgstr "作品主题"
+msgstr "学科"
 
 #. module: openeducat_core
 #: model:ir.ui.view,arch_db:openeducat_core.op_faculty_user_create_view

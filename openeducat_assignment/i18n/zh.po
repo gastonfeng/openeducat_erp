@@ -39,7 +39,7 @@ msgstr "分配"
 #. module: openeducat_assignment
 #: view:op.assignment:openeducat_assignment.view_op_assignment_form
 msgid "Allocation Infomation"
-msgstr "分配资讯"
+msgstr "分配信息"
 
 #. module: openeducat_assignment
 #: model:ir.actions.act_window,name:openeducat_assignment.act_op_student_assignment
@@ -51,51 +51,51 @@ msgstr "分配资讯"
 #: field:op.assignment.sub.line,assignment_id:0
 #: view:op.student:openeducat_assignment.view_op_student_form_assignment_inherit
 msgid "Assignment"
-msgstr "分配"
+msgstr "作业"
 
 #. module: openeducat_assignment
 #: view:board.board:openeducat_assignment.assignment_faculty_dashboard_form_view
 msgid "Assignment Approved"
-msgstr "已审核分配"
+msgstr "已批准作业"
 
 #. module: openeducat_assignment
 #: view:op.assignment:openeducat_assignment.view_op_assignment_form
 msgid "Assignment Name"
-msgstr "分配名称"
+msgstr "作业名称"
 
 #. module: openeducat_assignment
 #: view:op.assignment.sub.line:openeducat_assignment.view_op_assignment_sub_line_form
 #: view:op.assignment.sub.line:openeducat_assignment.view_op_assignment_sub_line_search
 #: view:op.assignment.sub.line:openeducat_assignment.view_op_assignment_sub_line_tree
 msgid "Assignment Sub Line"
-msgstr "分配子行"
+msgstr "作业项目"
 
 #. module: openeducat_assignment
 #: model:ir.model,name:openeducat_assignment.model_op_assignment_sub_line
 msgid "Assignment Submission"
-msgstr "分配提交"
+msgstr "作业提交"
 
 #. module: openeducat_assignment
 #: model:ir.actions.act_window,name:openeducat_assignment.act_open_op_assignment_sub_line_view
 #: model:ir.ui.menu,name:openeducat_assignment.menu_op_assignment_sub_line_sub
 msgid "Assignment Submissions"
-msgstr "分配提交"
+msgstr "作业提交"
 
 #. module: openeducat_assignment
 #: view:board.board:openeducat_assignment.assignment_student_dashboard_form_view
 msgid "Assignment To Submit"
-msgstr "要提交的任务"
+msgstr "要提交的作业"
 
 #. module: openeducat_assignment
 #: view:op.assignment:openeducat_assignment.view_op_assignment_search
 #: field:op.assignment,assignment_type_id:0
 msgid "Assignment Type"
-msgstr "分配类型"
+msgstr "作业类型"
 
 #. module: openeducat_assignment
 #: field:op.student,allocation_ids:0
 msgid "Assignment(s)"
-msgstr "分配 (s)"
+msgstr "作业"
 
 #. module: openeducat_assignment
 #: model:ir.actions.act_window,name:openeducat_assignment.act_open_op_assignment_view
@@ -200,7 +200,7 @@ msgstr "完成"
 #: field:op.assignment,message_follower_ids:0
 #: field:op.assignment.sub.line,message_follower_ids:0
 msgid "Followers"
-msgstr "追随 者"
+msgstr "订阅者"
 
 #. module: openeducat_assignment
 #: view:op.assignment:openeducat_assignment.view_op_assignment_search
@@ -231,7 +231,7 @@ msgstr "如果选中的新邮件需要您的注意。"
 #: field:op.assignment,message_is_follower:0
 #: field:op.assignment.sub.line,message_is_follower:0
 msgid "Is a Follower"
-msgstr "是一个追随者"
+msgstr "是一个订阅者"
 
 #. module: openeducat_assignment
 #: view:op.assignment:openeducat_assignment.view_op_assignment_search
@@ -264,7 +264,7 @@ msgstr "上次更新时间"
 #: field:op.assignment,marks:0
 #: view:op.assignment.sub.line:openeducat_assignment.view_op_assignment_sub_line_search
 msgid "Marks"
-msgstr "标志着"
+msgstr "标志"
 
 #. module: openeducat_assignment
 #: field:op.assignment,message_ids:0
@@ -290,7 +290,7 @@ msgstr "名字"
 #: view:op.assignment.sub.line:openeducat_assignment.view_op_assignment_sub_line_search
 #: field:op.assignment.sub.line,note:0
 msgid "Note"
-msgstr "注意"
+msgstr "备注"
 
 #. module: openeducat_assignment
 #: view:op.assignment:openeducat_assignment.view_op_assignment_form
@@ -320,7 +320,7 @@ msgstr "提交"
 #. module: openeducat_assignment
 #: field:op.assignment,reviewer:0
 msgid "Reviewer"
-msgstr "评论家"
+msgstr "审核者"
 
 #. module: openeducat_assignment
 #: view:op.assignment:openeducat_assignment.view_op_assignment_search

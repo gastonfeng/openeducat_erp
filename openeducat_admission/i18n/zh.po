@@ -27,7 +27,7 @@ msgstr "地址"
 #: view:op.admission:openeducat_admission.view_op_admission_search
 #: view:op.admission:openeducat_admission.view_op_admission_tree
 msgid "Admission"
-msgstr "入场"
+msgstr "招生"
 
 #. module: openeducat_admission
 #: view:admission.analysis:openeducat_admission.admission_analysis_form
@@ -35,7 +35,7 @@ msgstr "入场"
 #: model:ir.ui.menu,name:openeducat_admission.menu_admission_analysis
 #: view:website:openeducat_admission.report_admission_analysis
 msgid "Admission Analysis"
-msgstr "入场分析"
+msgstr "招生分析"
 
 #. module: openeducat_admission
 #: model:ir.actions.act_window,name:openeducat_admission.admission_analysis_act
@@ -46,17 +46,17 @@ msgstr "招生分析报告"
 #: view:op.admission:openeducat_admission.view_op_admission_search
 #: field:op.admission,admission_date:0
 msgid "Admission Date"
-msgstr "入场日期"
+msgstr "招生日期"
 
 #. module: openeducat_admission
 #: view:op.admission:openeducat_admission.view_op_admission_form
 msgid "Admission Detail"
-msgstr "入场详细信息"
+msgstr "招生明细"
 
 #. module: openeducat_admission
 #: selection:op.admission.register,state:0
 msgid "Admission Process"
-msgstr "入场流程"
+msgstr "招生流程"
 
 #. module: openeducat_admission
 #: model:ir.model,name:openeducat_admission.model_op_admission_register
@@ -71,7 +71,7 @@ msgstr "招生登记"
 #: model:ir.actions.act_window,name:openeducat_admission.act_open_op_admission_register_view
 #: model:ir.ui.menu,name:openeducat_admission.menu_admission_register
 msgid "Admission Registers"
-msgstr "入场登记簿"
+msgstr "招生登记表"
 
 #. module: openeducat_admission
 #: model:ir.actions.act_window,name:openeducat_admission.act_open_op_admission_view
@@ -172,7 +172,7 @@ msgstr "课程："
 #. module: openeducat_admission
 #: view:op.admission:openeducat_admission.view_op_admission_graph
 msgid "Course By Admission"
-msgstr "课程由入场"
+msgstr "招生课程"
 
 #. module: openeducat_admission
 #: view:op.admission:openeducat_admission.view_op_admission_form
@@ -358,7 +358,7 @@ msgstr "男性"
 #. module: openeducat_admission
 #: field:op.admission.register,max_count:0
 msgid "Maximum No. of Admission"
-msgstr "最大编号的入场"
+msgstr "招生数量"
 
 #. module: openeducat_admission
 #: field:op.admission,message_ids:0
@@ -381,7 +381,7 @@ msgstr "中间名"
 #. module: openeducat_admission
 #: field:op.admission.register,min_count:0
 msgid "Minimum No. of Admission"
-msgstr "最小编号的入场"
+msgstr "最少招生数量"
 
 #. module: openeducat_admission
 #: view:op.admission:openeducat_admission.view_op_admission_form
@@ -397,7 +397,7 @@ msgstr "名字"
 #. module: openeducat_admission
 #: field:op.admission,nbr:0
 msgid "No of Admission"
-msgstr "入场费"
+msgstr "招生编号"
 
 #. module: openeducat_admission
 #: view:op.admission:openeducat_admission.view_op_admission_form
@@ -495,7 +495,7 @@ msgstr "设置为草稿"
 #. module: openeducat_admission
 #: view:op.admission.register:openeducat_admission.view_op_admission_register_form
 msgid "Start Admission"
-msgstr "开始入场"
+msgstr "开始招生"
 
 #. module: openeducat_admission
 #: view:op.admission.register:openeducat_admission.view_op_admission_register_form

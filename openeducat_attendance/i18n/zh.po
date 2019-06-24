@@ -30,7 +30,7 @@ msgstr "添加学生 (s)"
 #. module: openeducat_attendance
 #: model:ir.actions.act_window,name:openeducat_attendance.op_all_student_act
 msgid "Attandance Sheet Import"
-msgstr "Attandance 表导入"
+msgstr "考勤表导入"
 
 #. module: openeducat_attendance
 #: model:ir.ui.menu,name:openeducat_attendance.menu_op_attendance_main
@@ -47,21 +47,21 @@ msgstr "考勤"
 #: view:op.attendance.sheet:openeducat_attendance.view_op_attendance_sheet_form
 #: field:op.attendance.sheet,attendance_line:0
 msgid "Attendance Line"
-msgstr "考勤线"
+msgstr "考勤记录"
 
 #. module: openeducat_attendance
 #: view:op.attendance.register:openeducat_attendance.view_op_attendance_register_form
 #: view:op.attendance.register:openeducat_attendance.view_op_attendance_register_search
 #: view:op.attendance.register:openeducat_attendance.view_op_attendance_register_tree
 msgid "Attendance Register"
-msgstr "出勤登记"
+msgstr "考勤登记"
 
 #. module: openeducat_attendance
 #: model:ir.actions.act_window,name:openeducat_attendance.act_open_op_attendance_register_view
 #: model:ir.ui.menu,name:openeducat_attendance.menu_op_attendance_register_sub
 #: model:ir.ui.menu,name:openeducat_attendance.menu_op_attendance_register_sub_faculty
 msgid "Attendance Registers"
-msgstr "出勤登记"
+msgstr "考勤登记"
 
 #. module: openeducat_attendance
 #: view:op.attendance.sheet:openeducat_attendance.view_op_attendance_sheet_form
@@ -75,12 +75,12 @@ msgstr "考勤表"
 #: model:ir.ui.menu,name:openeducat_attendance.menu_op_attendance_sheet_sub
 #: model:ir.ui.menu,name:openeducat_attendance.menu_op_attendance_sheet_sub_faculty
 msgid "Attendance Sheets"
-msgstr "考勤单"
+msgstr "考勤表"
 
 #. module: openeducat_attendance
 #: model:ir.ui.menu,name:openeducat_attendance.menu_op_attendance_line_sub
 msgid "Attendance lines"
-msgstr "考勤线"
+msgstr "考勤记录"
 
 #. module: openeducat_attendance
 #: field:op.all.student,batch_id:0
@@ -89,7 +89,7 @@ msgstr "考勤线"
 #: view:op.attendance.register:openeducat_attendance.view_op_attendance_register_search
 #: field:op.attendance.register,batch_id:0
 msgid "Batch"
-msgstr "批"
+msgstr "班级"
 
 #. module: openeducat_attendance
 #: view:student.attendance:openeducat_attendance.student_attendance_form
@@ -160,7 +160,7 @@ msgstr "从日期:"
 #. module: openeducat_attendance
 #: model:ir.actions.report.xml,name:openeducat_attendance.action_report_student_attendance
 msgid "Generate Attendance"
-msgstr "生成出勤"
+msgstr "生成考勤"
 
 #. module: openeducat_attendance
 #: view:op.attendance.line:openeducat_attendance.view_op_attendance_line_search
@@ -208,7 +208,7 @@ msgstr "名字"
 #: view:op.attendance.line:openeducat_attendance.view_op_attendance_line_search
 #: field:op.attendance.line,present:0
 msgid "Present ?"
-msgstr "目前？"
+msgstr "签到"
 
 #. module: openeducat_attendance
 #: view:op.attendance.sheet:openeducat_attendance.view_op_attendance_sheet_search
@@ -220,7 +220,7 @@ msgstr "注册"
 #: field:op.attendance.line,remark:0
 #: view:website:openeducat_attendance.student_attendance_report
 msgid "Remark"
-msgstr "的话"
+msgstr "备注"
 
 #. module: openeducat_attendance
 #: view:op.attendance.line:openeducat_attendance.view_op_attendance_line_search

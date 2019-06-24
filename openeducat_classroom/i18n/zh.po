@@ -35,13 +35,13 @@ msgstr "能力"
 #. module: openeducat_classroom
 #: model:ir.ui.menu,name:openeducat_classroom.menu_op_school_config_class_room
 msgid "Class Room Management"
-msgstr "班级室管理"
+msgstr "教室管理"
 
 #. module: openeducat_classroom
 #: model:ir.actions.act_window,name:openeducat_classroom.act_open_op_classroom_view
 #: model:ir.ui.menu,name:openeducat_classroom.menu_op_classroom_sub
 msgid "Class Rooms"
-msgstr "班级房"
+msgstr "教室"
 
 #. module: openeducat_classroom
 #: view:op.classroom:openeducat_classroom.view_op_classroom_form
@@ -83,7 +83,7 @@ msgstr "设施"
 #. module: openeducat_classroom
 #: field:op.classroom,facilities:0
 msgid "Facility Lines"
-msgstr "设施线"
+msgstr "设施记录"
 
 #. module: openeducat_classroom
 #: view:op.classroom:openeducat_classroom.view_op_classroom_search
@@ -117,7 +117,7 @@ msgstr "名字"
 #. module: openeducat_classroom
 #: field:op.classroom,capacity:0
 msgid "No of Person"
-msgstr "没有人"
+msgstr "人数"
 
 #. module: openeducat_classroom
 #: field:op.asset,product_id:0

@@ -26,7 +26,7 @@ class OpActivity(models.Model):
     _name = 'op.activity'
     _rec_name = 'student_id'
     _inherit = 'mail.thread'
-
+    _description = '学生活动'
     def _default_faculty(self):
         return self.env['op.faculty'].search([
             ('user_id', '=', self._uid)
